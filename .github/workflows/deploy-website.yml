@@ -1,0 +1,36 @@
+name: Deploy Hugo Site
+
+# run when a commit is pushed to "master" branch
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      # checkout to the commit that has been pushed
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      # install Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.110.0" # Version to compile Hugo, best is to use same as local
+          extended: true
+
+      # build website
+      - name: Build
+        run: hugo --minify
+
+      # push the generated content into the `deployed` branch.
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: deployed # Branch which will store compiled version
+          publish_dir: ./public
