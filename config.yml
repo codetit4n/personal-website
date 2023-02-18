@@ -2,3 +2,26 @@ baseURL: "https://building.lokeshkr.com"
 languageCode: en-us
 title: Lokesh Kumar
 theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Namaskaram 🙏 , I'm Lokesh"
+    Content: >
+      I am a Blockchain Developer who loves 
+      building Decentralized Applications and systems using Blockchain 
+      Technology. I am always looking to learn and expand my skill set.
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/codeTIT4N
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/lokesh-kumar-nalot-0baa691b9
+    - name: Twitter
+      url: https://twitter.com/lokeshtweets_
+    - name: email
+      url: mailto:lokeshkumar636@yahoo.com
+    # - name: Telegram
+    #   url: https://t.me/lokesshk
+    # - name: Hashnode
+    #   url: http://blog.lokeshkr.com
+    # - name: YouTube
+    #   url: https://www.youtube.com/channel/UCVWq-83WQElIoIN6NGdCXLw
