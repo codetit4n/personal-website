@@ -10,6 +10,11 @@ params:
       I am a Blockchain Developer who loves 
       building Decentralized Applications and systems using Blockchain 
       Technology. I am always looking to learn and expand my skill set.
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
   socialIcons:
     - name: GitHub
       url: https://github.com/codeTIT4N
@@ -17,11 +22,22 @@ params:
       url: https://www.linkedin.com/in/lokesh-kumar-nalot-0baa691b9
     - name: Twitter
       url: https://twitter.com/lokeshtweets_
-    - name: email
-      url: mailto:lokeshkumar636@yahoo.com
+    # - name: email
+    #   url: mailto:lokeshkumar636@yahoo.com
     # - name: Telegram
     #   url: https://t.me/lokesshk
-    # - name: Hashnode
+    # - name: tech-blog
     #   url: http://blog.lokeshkr.com
     # - name: YouTube
     #   url: https://www.youtube.com/channel/UCVWq-83WQElIoIN6NGdCXLw
+
+menu:
+  main:
+    - identifier: telegram
+      name: Ping Me
+      url: https://t.me/lokesshk
+      weight: 10
+    - identifier: tech-blog
+      name: Tech Blog
+      url: https://blog.lokeshkr.com
+      weight: 20
