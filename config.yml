@@ -22,10 +22,8 @@ params:
       url: https://www.linkedin.com/in/lokesh-kumar-nalot-0baa691b9
     - name: Twitter
       url: https://twitter.com/lokeshtweets_
-    # - name: email
-    #   url: mailto:lokeshkumar636@yahoo.com
-    # - name: Telegram
-    #   url: https://t.me/lokesshk
+    - name: email
+      url: mailto:lokeshkumar636@yahoo.com
     # - name: tech-blog
     #   url: http://blog.lokeshkr.com
     # - name: YouTube
@@ -33,11 +31,15 @@ params:
 
 menu:
   main:
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio
+      weight: 10
     - identifier: telegram
       name: Ping Me
       url: https://t.me/lokesshk
-      weight: 10
+      weight: 20
     - identifier: tech-blog
       name: Tech Blog
       url: https://blog.lokeshkr.com
-      weight: 20
+      weight: 30
