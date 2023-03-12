@@ -6,7 +6,7 @@ summary: portfolio
 ---
 
 ### LYNC - GameFi Infrastructure
-#### Website: https://www.lync.world
+#### [Website](https://www.lync.world/) . [Blog](https://lyncworld.medium.com/) . [Twitter](https://twitter.com/Lyncworld) . [LinkedIn](https://www.linkedin.com/company/lync-world/) . [Discord](https://discord.com/invite/R8s8NGauRn)
 ##### Jan 2023 - Present
 
 
@@ -15,12 +15,12 @@ Currently I am working here as a full time Blockchain Developer.
 
 {{< collapse summary="More Details">}}
 1. Blockchain: Solidity, JavaScript, TypeScript, Hardhat, [thegraph](https://thegraph.com/ "thegraph website"), GraphQL.
-    - Dynamic NFTs ([Showcase in ETHGlobal](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r)).
+    - Dynamic NFTs - [ETHGlobal Showcase](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r)
     - Cross chain NFT Lending & Renting using [axelar network](https://axelar.network/ "axelar network website").
     - Non-Custodial NFT Marketplace.
     - Non-Custodial NFT Lending & Renting.
-    - Made subgraphs using thegraph for getting data from the blockchain.
-2. Frontend: JavaScript, React.Js, Ethers.js, GraphQL, API integrations like NFT data APIs, thegraph etc.
+    - Made subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to fetch data from the blockchain using GraphQL.
+2. Frontend: JavaScript, React.Js, Ethers.js, GraphQL, API integrations ([Alchemy NFT API](https://www.alchemy.com/nft-api "NFT API Alchemy website")), thegraph etc.
     - Worked on blockchain interactions on the frontend using ethers.js, GraphQL, etc.
 3. Backend: Node.Js, Express.Js, MongoDB, JavaScript.
     - Made an API which uses [w3name](https://web3.storage/docs/how-tos/w3name/ "w3name") and [IPNS](https://docs.ipfs.tech/concepts/ipns/ "IPNS") under the hood for [Dynamic NFTs](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r "dynamic NFTs ETH Global showcase").
@@ -28,5 +28,13 @@ Currently I am working here as a full time Blockchain Developer.
 4. Keeping up with the new Blockchain tech like [Account abstraction](https://eips.ethereum.org/EIPS/eip-4337 "EIP-4337"), [Blockchain Interoperability](https://blog.chain.link/blockchain-interoperability/ "Blockchain Interoperability Article Chainlink"), etc.
 {{< /collapse >}}
 
+---
 
-<!-- ### [USDAO and OnVault](https://usdao.io/ "USDAO") - Defi Project -->
+### USDAO and OnVault - Defi Projects
+#### [Website](https://www.usdao.io/) . [Docs](https://docs.usdao.io/) . [Twitter](https://twitter.com/usdao_io) . [LinkedIn](https://www.linkedin.com/company/usdaoofficial) . [Blog](https://usdao.medium.com/)
+##### Jan 2022 - Jan 2023
+
+
+USDAO is a decentralized crypto-backed stablecoin intended to serve as a global currency. [OnVault](https://onvault.usdao.io/ "onvault dApp") is a lending protocol which lends USDAO taking ETH as collateral.
+
+TBD
