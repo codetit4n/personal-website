@@ -5,7 +5,7 @@ url: "/portfolio"
 summary: portfolio
 ---
 
-### LYNC - GameFi Infrastructure
+## LYNC - GameFi Infrastructure
 
 #### [Website](https://www.lync.world/) . [Blog](https://lyncworld.medium.com/) . [Twitter](https://twitter.com/Lyncworld) . [LinkedIn](https://www.linkedin.com/company/lync-world/) . [Discord](https://discord.com/invite/R8s8NGauRn)
 
@@ -17,50 +17,74 @@ Currently I am working here as a full time Blockchain Developer.
 {{< collapse summary="More Details">}}
 
 1. Blockchain: Solidity, JavaScript, TypeScript, Hardhat, [thegraph](https://thegraph.com/ "thegraph website"), GraphQL.
-   - Dynamic NFTs - [ETHGlobal Showcase](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r)
+
+   - Dynamic NFTs - [ETHGlobal Showcase](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r).
    - Cross chain NFT Lending & Renting using [axelar network](https://axelar.network/ "axelar network website").
    - Non-Custodial NFT Marketplace.
    - Non-Custodial NFT Lending & Renting.
    - Made subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to fetch data from the blockchain using GraphQL.
+
 2. Frontend: JavaScript, React.Js, Ethers.js, GraphQL, API integrations ([Alchemy NFT API](https://www.alchemy.com/nft-api "NFT API Alchemy website")), thegraph etc.
-   - Worked on blockchain interactions on the frontend using ethers.js, GraphQL, etc.
+
+- Worked on blockchain interactions on the frontend using ethers.js, GraphQL, etc.
+
 3. Backend: Node.Js, Express.Js, MongoDB, JavaScript.
-   - Made an API which uses [w3name](https://web3.storage/docs/how-tos/w3name/ "w3name") and [IPNS](https://docs.ipfs.tech/concepts/ipns/ "IPNS") under the hood for [Dynamic NFTs](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r "dynamic NFTs ETH Global showcase").
-   - Worked on a smart contract verification tool which creates a custom [ERC721A](https://www.erc721a.org/ "ERC721A website"), [ERC1155](https://eips.ethereum.org/EIPS/eip-1155 "EIP-1155") or [biconomy](https://www.biconomy.io/ "biconomy website") gasless NFT contract and responds with its bytecode and abi, which can then be used by the frontend to make users deploy custom NFT contracts and then finally verify them on block explorers like [etherscan](https://etherscan.io/ "etherscan explorer"), [polygonscan](https://polygonscan.com/ "polygonscan explorer"), [arbiscan](https://arbiscan.io/ "arbiscan explorer"), [snowtrace](https://snowtrace.io/ "snowtrace explorer"), [blockscout](https://blockscout.com/ "blockscout explorer"), etc.
+
+- Made an API which uses [w3name](https://web3.storage/docs/how-tos/w3name/ "w3name") and [IPNS](https://docs.ipfs.tech/concepts/ipns/ "IPNS") under the hood for [Dynamic NFTs](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r "dynamic NFTs ETH Global showcase").
+  - Worked on a smart contract verification tool which creates a custom [ERC721A](https://www.erc721a.org/ "ERC721A website"), [ERC1155](https://eips.ethereum.org/EIPS/eip-1155 "EIP-1155") or [biconomy](https://www.biconomy.io/ "biconomy website") gasless NFT contract and responds with its bytecode and abi, which can then be used by the frontend to make users deploy custom NFT contracts and then finally verify them on block explorers like [etherscan](https://etherscan.io/ "etherscan explorer"), [polygonscan](https://polygonscan.com/ "polygonscan explorer"), [arbiscan](https://arbiscan.io/ "arbiscan explorer"), [snowtrace](https://snowtrace.io/ "snowtrace explorer"), [blockscout](https://blockscout.com/ "blockscout explorer"), etc.
+
 4. Keeping up with the new Blockchain tech like [Account abstraction](https://eips.ethereum.org/EIPS/eip-4337 "EIP-4337"), [Blockchain Interoperability](https://blog.chain.link/blockchain-interoperability/ "Blockchain Interoperability Article Chainlink"), etc.
    {{< /collapse >}}
 
 ---
 
-### USDAO and OnVault - Defi Projects
+## USDAO and OnVault - Defi Projects
 
 #### [Website](https://www.usdao.io/) . [Docs](https://docs.usdao.io/) . [Twitter](https://twitter.com/usdao_io) . [LinkedIn](https://www.linkedin.com/company/usdaoofficial) . [Blog](https://usdao.medium.com/)
 
 ##### Jan 2022 - Jan 2023
 
-USDAO is a decentralized crypto-backed stablecoin intended to serve as a global currency. [OnVault](https://onvault.usdao.io/ "onvault dApp") is a lending protocol which lends USDAO taking ETH as collateral.
+USDAO is a decentralized crypto-backed stablecoin intended to serve as a global currency. [OnVault](https://onvault.usdao.io/ "onvault dApp") is a
+lending protocol which lends out USDAO taking ETH as collateral.
 
 {{< collapse summary="More Details">}}
 
-#### About USDAO and OnVault
+### About USDAO and OnVault
 
 - USDAO is a stablecoin pegged 1:1 to the USD.
-- Being a DAO there is another token(ASSET) for governing the protocol.
-- OnVault is another project under USDAO which is a borrowing protocol to take out USDAO loans.
-- All loans on OnVault can be taken out at 110% collateral ratio. So, for taking our 100 USDAO token you will need at least 110 USD worth of ether.
-- OnVault has features like liquidations for undercollateralized debt positions, staking/stability providing.
-- If you stake/provide stability (give USDAO to the system) in OnVault you are rewarded in ASSET tokens which can be used to govern USDAO.
-- Also when a liquidation occurs your debt is offset with the USDAO in the stability pool.
+- Since, it's a DAO we have another token to govern it called ASSET.
+- OnVault is another project under USDAO. It is a borrowing protocol for users of USDAO to take out USDAO loans giving their ETH as collateral.
+- All loans on OnVault can be taken out at 110% collateral ratio. So, to take out 100 USDAO you will need at least 110 USD worth of ether.
+- OnVault has features like liquidations for undercollateralized debt positions, staking/stability providing, etc.
+- If you stake/provide stability in OnVault you are rewarded in ASSET tokens which can be used to govern USDAO protocol.
+- If your debt position goes below the minimum allowed, it will be liquidated.
+- When a liquidation happens the debt is offset with the USDAO in the stability pool/ staked USDAO.
+- Anyone can do liquidations for undercollateralized debt positions and they will be rewarded for that.
+- This system takes inspiration from [Liquity Protocol](https://www.liquity.org/).
 
-#### Tech stack used:
+### My Work:
 
-1.  Blockchain: Solidity, JavaScript, Hardhat, [thegraph](https://thegraph.com/ "thegraph website"), GraphQL.
-2.  Frontend: JavaScript, React.Js, Ethers.js, GraphQL, thegraph etc.
+1.  Blockchain: Solidity, JavaScript, Hardhat, Truffle, TypeScript, [thegraph](https://thegraph.com/ "thegraph website"), GraphQL.
+
+    - Created core smart contracts for OnVault and improved the existing USDAO smart contracts.
+    - Created subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to track USDAO and OnVault smart contract transactions.
+    - Integrated various liquidity pools like [UniSwap](https://uniswap.org/), [Yearn](https://yearn.finance/), [Compound](https://compound.finance/),
+      [Aave](https://aave.com/), etc with our smart contracts.
+    - Wrote test cases for various smart contract functionality.
+    - Did some simulations regarding how the USDAO peg will hold in various market conditions using historical data.
+    - Documented the code on [GitHub](https://github.com/USDAO-Protocol) and [GitBook](https://docs.usdao.io/).
+
+2.  Frontend: JavaScript, React.Js, Ethers.js, Web3.js, GraphQL, thegraph etc.
+
+    - Integrated various smart contracts functionality with the frontend using ethers.js, web3.js, GraphQL(for thegraph), etc.
+
+3.  Looked into various protocols like [Liquity](https://www.liquity.org/), [OlympusDAO](https://www.olympusdao.finance/),
+    [MakerDAO](https://makerdao.com/), [UniSwap](https://uniswap.org/), [Curve.fi](https://curve.fi/), etc and studied their smart contracts.
 
 ## {{< /collapse >}}
 
 ---
 
-### Nalnda - NFT based e-books
+## Nalnda - NFT based e-books
 
 TBD

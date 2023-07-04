@@ -35,10 +35,10 @@ menu:
       name: Portfolio
       url: /portfolio
       weight: 10
-    - identifier: telegram
-      name: Ping Me
-      url: https://t.me/lokesshk
-      weight: 20
+    # - identifier: telegram
+    #   name: Ping Me
+    #   url: https://t.me/lokesshk
+    #   weight: 20
     - identifier: tech-blog
       name: Tech Blog
       url: https://blog.lokeshkr.com
