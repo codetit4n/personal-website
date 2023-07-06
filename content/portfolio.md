@@ -85,6 +85,31 @@ lending protocol which lends out USDAO taking ETH as collateral.
 
 ---
 
-## Nalnda - NFT based e-books
+## Nalnda - NFT based e-books Marketplace
 
-TBD
+Social marketplace for NFT based e-books (or nBooks), with features like primary sales, secondary sales,
+commissions, etc.
+
+### About USDAO and OnVault
+
+- Every e-book is represented by an ERC721 contract.
+- The NFTs/tokens under a particular ERC-721 contract(or book) are called book covers.
+- If you own a book cover/ NFT you own a copy of that book and can read it on the platform.
+- The actual book is not stored publicly on IPFS. It is rather stored on a private IPFS node using the
+  [submarine service](https://www.pinata.cloud/submarine) from [Pinata](https://www.pinata.cloud/).
+- [Submarine service](https://www.pinata.cloud/submarine) gives access to a particular e-book if you own
+  an NFT of that book.
+- The marketplace has 2 types of sales happening on it:
+  1. Primary sale: This is basically when a cover or NFT gets minted (lazy minting) for a fixed cost.
+  2. Secondary sale: This is when some cover or NFT owner puts its NFT up for sale on our marketplace.
+- Commissions are also part of the platform and all the parties involved get something for using the platform.
+
+### My Work
+
+- Worked part time here as a Blockchain Developer.
+- Created all the smart contracts like ERC721 contracts(representing each e-book), Escrow contract for
+  trading NFTs, etc
+- These smart contracts are public on GitHub: https://github.com/nalndamktplace/smart-contracts
+- Wrote test cases for all smart contract functionality.
+- Helped in implementing Pinata's submarine service along with the frontend team.
+- Created subgraphs to track transactions happening on the platform using TypeScript and [thegraph](https://thegraph.com/ "thegraph website").
