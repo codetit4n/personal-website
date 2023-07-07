@@ -16,13 +16,16 @@ Currently I am working here as a full time Blockchain Developer.
 
 {{< collapse summary="More Details">}}
 
-1. Blockchain: Solidity, JavaScript, TypeScript, Hardhat, [thegraph](https://thegraph.com/ "thegraph website"), GraphQL.
+1. Blockchain: Solidity, JavaScript, TypeScript, Hardhat, [thegraph](https://thegraph.com/ "thegraph 
+website"), GraphQL.
 
    - Dynamic NFTs - [ETHGlobal Showcase](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r).
-   - Cross chain NFT Lending & Renting using [axelar network](https://axelar.network/ "axelar network website").
+   - Cross chain NFT Lending & Renting using [axelar network](https://axelar.network/ "axelar network 
+website").
    - Non-Custodial NFT Marketplace.
    - Non-Custodial NFT Lending & Renting.
-   - Made subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to fetch data from the blockchain using GraphQL.
+   - Made subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to fetch data from the
+     blockchain using GraphQL.
 
 2. Frontend: JavaScript, React.Js, Ethers.js, GraphQL, API integrations ([Alchemy NFT API](https://www.alchemy.com/nft-api "NFT API Alchemy website")), thegraph etc.
 
@@ -34,7 +37,8 @@ Currently I am working here as a full time Blockchain Developer.
   - Worked on a smart contract verification tool which creates a custom [ERC721A](https://www.erc721a.org/ "ERC721A website"), [ERC1155](https://eips.ethereum.org/EIPS/eip-1155 "EIP-1155") or [biconomy](https://www.biconomy.io/ "biconomy website") gasless NFT contract and responds with its bytecode and abi, which can then be used by the frontend to make users deploy custom NFT contracts and then finally verify them on block explorers like [etherscan](https://etherscan.io/ "etherscan explorer"), [polygonscan](https://polygonscan.com/ "polygonscan explorer"), [arbiscan](https://arbiscan.io/ "arbiscan explorer"), [snowtrace](https://snowtrace.io/ "snowtrace explorer"), [blockscout](https://blockscout.com/ "blockscout explorer"), etc.
 
 4. Keeping up with the new Blockchain tech like [Account abstraction](https://eips.ethereum.org/EIPS/eip-4337 "EIP-4337"), [Blockchain Interoperability](https://blog.chain.link/blockchain-interoperability/ "Blockchain Interoperability Article Chainlink"), etc.
-   {{< /collapse >}}
+
+{{< /collapse >}}
 
 ---
 
@@ -44,8 +48,9 @@ Currently I am working here as a full time Blockchain Developer.
 
 ##### Jan 2022 - Jan 2023
 
-USDAO is a decentralized crypto-backed stablecoin intended to serve as a global currency. [OnVault](https://onvault.usdao.io/ "onvault dApp") is a
-lending protocol which lends out USDAO taking ETH as collateral.
+USDAO is a decentralized crypto-backed stablecoin intended to serve as a global currency.
+[OnVault](https://onvault.usdao.io/ "onvault dApp") is a lending protocol which lends out USDAO
+taking ETH as collateral.
 
 {{< collapse summary="More Details">}}
 
@@ -53,63 +58,95 @@ lending protocol which lends out USDAO taking ETH as collateral.
 
 - USDAO is a stablecoin pegged 1:1 to the USD.
 - Since, it's a DAO we have another token to govern it called ASSET.
-- OnVault is another project under USDAO. It is a borrowing protocol for users of USDAO to take out USDAO loans giving their ETH as collateral.
-- All loans on OnVault can be taken out at 110% collateral ratio. So, to take out 100 USDAO you will need at least 110 USD worth of ether.
-- OnVault has features like liquidations for undercollateralized debt positions, staking/stability providing, etc.
-- If you stake/provide stability in OnVault you are rewarded in ASSET tokens which can be used to govern USDAO protocol.
+- OnVault is another project under USDAO. It is a borrowing protocol for users of USDAO to take out USDAO
+  loans giving their ETH as collateral.
+- All loans on OnVault can be taken out at 110% collateral ratio. So, to take out 100 USDAO you will need
+  at least 110 USD worth of ether.
+- OnVault has features like liquidations for undercollateralized debt positions, staking/stability providing,
+  etc.
+- If you stake/provide stability in OnVault you are rewarded in ASSET tokens which can be used to govern
+  USDAO protocol.
 - If your debt position goes below the minimum allowed, it will be liquidated.
 - When a liquidation happens the debt is offset with the USDAO in the stability pool/ staked USDAO.
 - Anyone can do liquidations for undercollateralized debt positions and they will be rewarded for that.
 - This system takes inspiration from [Liquity Protocol](https://www.liquity.org/).
 
-### My Work:
+### My Work
 
 1.  Blockchain: Solidity, JavaScript, Hardhat, Truffle, TypeScript, [thegraph](https://thegraph.com/ "thegraph website"), GraphQL.
 
     - Created core smart contracts for OnVault and improved the existing USDAO smart contracts.
-    - Created subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to track USDAO and OnVault smart contract transactions.
-    - Integrated various liquidity pools like [UniSwap](https://uniswap.org/), [Yearn](https://yearn.finance/), [Compound](https://compound.finance/),
-      [Aave](https://aave.com/), etc with our smart contracts.
+    - Created subgraphs using [thegraph](https://thegraph.com/ "thegraph website") and TypeScript to track
+      USDAO and OnVault smart contract transactions.
+    - Integrated various liquidity pools like [UniSwap](https://uniswap.org/),
+      [Yearn](https://yearn.finance/), [Compound](https://compound.finance/), [Aave](https://aave.com/), etc
+      with our smart contracts.
     - Wrote test cases for various smart contract functionality.
-    - Did some simulations regarding how the USDAO peg will hold in various market conditions using historical data.
-    - Documented the code on [GitHub](https://github.com/USDAO-Protocol) and [GitBook](https://docs.usdao.io/).
+    - Did some simulations regarding how the USDAO peg will hold in various market conditions using
+      historical data.
+    - Documented the code on [GitHub](https://github.com/USDAO-Protocol) and
+      [GitBook](https://docs.usdao.io/).
 
 2.  Frontend: JavaScript, React.Js, Ethers.js, Web3.js, GraphQL, thegraph etc.
 
-    - Integrated various smart contracts functionality with the frontend using ethers.js, web3.js, GraphQL(for thegraph), etc.
+    - Integrated various smart contracts functionality with the frontend using ethers.js, web3.js,
+      GraphQL(for thegraph), etc.
 
-3.  Looked into various protocols like [Liquity](https://www.liquity.org/), [OlympusDAO](https://www.olympusdao.finance/),
-    [MakerDAO](https://makerdao.com/), [UniSwap](https://uniswap.org/), [Curve.fi](https://curve.fi/), etc and studied their smart contracts.
+3.  Looked into various protocols like [Liquity](https://www.liquity.org/),
+    [OlympusDAO](https://www.olympusdao.finance/), [MakerDAO](https://makerdao.com/),
+    [UniSwap](https://uniswap.org/), [Curve.fi](https://curve.fi/), etc and studied their smart contracts.
 
-## {{< /collapse >}}
+{{< /collapse >}}
 
 ---
 
 ## Nalnda - NFT based e-books Marketplace
 
+#### [Website](https://nalnda.com/) . [Docs](https://docs.nalnda.com/) . [Twitter](https://twitter.com/nalndamktplace) . [LinkedIn](https://www.linkedin.com/company/nalnda) . [Blog](https://nalndamktplace.medium.com/)
+
+##### May 2022 - June 2022
+
 Social marketplace for NFT based e-books (or nBooks), with features like primary sales, secondary sales,
 commissions, etc.
 
-### About USDAO and OnVault
+{{< collapse summary="More Details">}}
+
+### About Nalnda
 
 - Every e-book is represented by an ERC721 contract.
-- The NFTs/tokens under a particular ERC-721 contract(or book) are called book covers.
+- The NFTs/tokens under a particular ERC-721 contract(or e-book) are called book covers.
 - If you own a book cover/ NFT you own a copy of that book and can read it on the platform.
 - The actual book is not stored publicly on IPFS. It is rather stored on a private IPFS node using the
-  [submarine service](https://www.pinata.cloud/submarine) from [Pinata](https://www.pinata.cloud/).
+  [submarine service](https://www.pinata.cloud/submarine) from [Pinata](https://www.pinata.cloud/)
 - [Submarine service](https://www.pinata.cloud/submarine) gives access to a particular e-book if you own
   an NFT of that book.
 - The marketplace has 2 types of sales happening on it:
   1. Primary sale: This is basically when a cover or NFT gets minted (lazy minting) for a fixed cost.
   2. Secondary sale: This is when some cover or NFT owner puts its NFT up for sale on our marketplace.
-- Commissions are also part of the platform and all the parties involved get something for using the platform.
+- Nalnda also implements something called as Initial Title Offering(or ITO):
+
+  - Initial Title Offering allows authors to safeguard the minimum no. of books they can sell. On avg.,
+    a title doesn't sell more than 450 copies. Nalnda helps authors to cross this chasm by providing a
+    platform where they can market their books and launch them for a minimum no. of readers.
+  - Readers who will participate in ITO will get a %age of royalty from all the future sales on Nalnda
+    platform as well as from the sale of printed books.
+  - This model benefits both the readers and the authors. Authors can earn optimal revenue from the sale
+    of their book from ITO and readers who take the risk by investing in the book are rewarded with
+    royalty %age from the future sale of the books.
+  - Also, since these readers have invested in the book, they would market it on behalf of the authors
+    thus helping him with the marketing without additional cost.
 
 ### My Work
 
 - Worked part time here as a Blockchain Developer.
-- Created all the smart contracts like ERC721 contracts(representing each e-book), Escrow contract for
-  trading NFTs, etc
+- Created all the smart contracts like Initial Title Offering(ITO) model, ERC721 contracts(representing
+  each e-book), Escrow contract for trading NFTs, etc.
 - These smart contracts are public on GitHub: https://github.com/nalndamktplace/smart-contracts
 - Wrote test cases for all smart contract functionality.
 - Helped in implementing Pinata's submarine service along with the frontend team.
-- Created subgraphs to track transactions happening on the platform using TypeScript and [thegraph](https://thegraph.com/ "thegraph website").
+- Created subgraphs to track transactions happening on the platform using TypeScript and
+  [thegraph](https://thegraph.com/ "thegraph website").
+
+{{< /collapse >}}
+
+---
