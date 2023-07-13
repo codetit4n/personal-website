@@ -24,10 +24,12 @@ params:
       url: https://twitter.com/lokeshtweets_
     - name: email
       url: mailto:lokeshkumar636@yahoo.com
+    - name: telegram
+      url: https://t.me/lokesshk
     # - name: tech-blog
     #   url: http://blog.lokeshkr.com
-    # - name: YouTube
-    #   url: https://www.youtube.com/channel/UCVWq-83WQElIoIN6NGdCXLw
+    - name: YouTube
+      url: https://www.youtube.com/@LokeshWritesCode/videos
 
 menu:
   main:

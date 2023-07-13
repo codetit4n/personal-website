@@ -7,7 +7,7 @@ summary: portfolio
 
 ## LYNC - GameFi Infrastructure
 
-#### [Website](https://www.lync.world/) . [Blog](https://lyncworld.medium.com/) . [Twitter](https://twitter.com/Lyncworld) . [LinkedIn](https://www.linkedin.com/company/lync-world/) . [Discord](https://discord.com/invite/R8s8NGauRn)
+#### [Website](https://www.lync.world/) . [Blog](https://lyncworld.medium.com/) . [Twitter](https://twitter.com/Lyncworld) . [LinkedIn](https://www.linkedin.com/company/lync-world/) . [Discord](https://discord.com/invite/R8s8NGauRn) . [GitHub](https://github.com/LYNC-WORLD)
 
 ##### Jan 2023 - Present
 
@@ -102,7 +102,7 @@ taking ETH as collateral.
 
 ## Nalnda - NFT based e-books Marketplace
 
-#### [Website](https://nalnda.com/) . [Docs](https://docs.nalnda.com/) . [Twitter](https://twitter.com/nalndamktplace) . [LinkedIn](https://www.linkedin.com/company/nalnda) . [Blog](https://nalndamktplace.medium.com/)
+#### [Website](https://nalnda.com/) . [Docs](https://docs.nalnda.com/) . [Twitter](https://twitter.com/nalndamktplace) . [LinkedIn](https://www.linkedin.com/company/nalnda) . [Blog](https://nalndamktplace.medium.com/) . [GitHub](https://github.com/nalndamktplace)
 
 ##### May 2022 - June 2022
 
@@ -146,6 +146,39 @@ commissions, etc.
 - Helped in implementing Pinata's submarine service along with the frontend team.
 - Created subgraphs to track transactions happening on the platform using TypeScript and
   [thegraph](https://thegraph.com/ "thegraph website").
+
+{{< /collapse >}}
+
+---
+
+## Niftomania - NFT trading platform
+
+#### [Twitter](https://twitter.com/niftomania) . [Instagram](https://www.instagram.com/niftomania)
+
+##### May 2021 - Nov 2021
+
+NFT trading platform with features like creating, buying, selling, auctioning NFTs.
+
+{{< collapse summary="More Details">}}
+
+### About Niftomania
+
+- Creators can mint their own NFTs.
+- Creators can choose type of NFT contract(ERC721/ERC1155) to mint.
+- Creators can set a royalty percentage which will be sent to them on every transaction.
+- Anyone can list the NFTs they own for sale/auctions.
+- There are 2 types of transactions happening here:
+  1. Direct sales: People buy listed NFTs at sale price.
+  2. Auctions: People bid on the NFT and the highest bid in a particular timeframe (set by the lister)
+     wins the auction and gets the NFT.
+
+### My Work
+
+- Worked as an intern on this project during my college time.
+- Created smart contracts for the protocol.
+- Created the frontend app using Web3.Js, React, JavaScript.
+- Integrated GraphQL APIs to get data from the blockchain using [thegraph](https://thegraph.com/ "thegraph 
+website") protocol.
 
 {{< /collapse >}}
 
