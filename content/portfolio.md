@@ -183,3 +183,38 @@ website") protocol.
 {{< /collapse >}}
 
 ---
+
+## Pharmaceutical Supply Chain Simulation
+
+#### [Code](https://github.com/codeTIT4N/supply-chain-truffle-react) . [Video](https://www.youtube.com/watch?v=2e-NGuT1PnY)
+
+Simulating a Pharmaceutical supply chain use case using a blockchain.
+
+{{< collapse summary="More Details">}}
+
+- This was an old side project.
+- All medicines go through various stages of the supply chain like supplying of raw materials, manufacturing,
+  distributing and retailing.
+- All of the above mentioned stages are stored on the blockchain using transactions.
+- Anyone can track medicines through the various stages using the interface as it is stored on a
+  public ledger(blockchain).
+
+{{< /collapse >}}
+
+---
+
+## BlockVote - Blockchain based e-voting system
+
+Simple Blockchain based e-voting system.
+
+{{< collapse summary="More Details">}}
+
+- My first blockchain project.
+- Admin starts/ends elections, Adds candidates, Deletes candidates.
+- Voters can login using their email password (built using firebase) and vote.
+- All the candidates are stored on blockchain and their vote count increases as people vote for them.
+- Anyone can view the election results after the election.
+
+{{< /collapse >}}
+
+---
