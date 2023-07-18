@@ -208,6 +208,8 @@ Simulating a Pharmaceutical Supply Chain use case using blockchain.
 
 ## BlockVote - Blockchain based e-voting system
 
+#### [PPT](https://docs.google.com/presentation/d/1IhWUhTT83LxtYjHR52xJUV2uIY6eam8v/edit?usp=sharing&ouid=116527115944155558520&rtpof=true&sd=true)
+
 Simple Blockchain based e-voting system.
 
 {{< collapse summary="More Details">}}
