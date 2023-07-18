@@ -140,7 +140,7 @@ commissions, etc.
 
 - Worked part time here as a Blockchain Developer.
 - Created all the smart contracts like Initial Title Offering(ITO) model, ERC721 contracts(representing
-  each e-book), Escrow contract for trading NFTs, etc.
+  each e-book), Escrow contract for trading NFTs, etc using solidity, Hardhat framework, JavaScript.
 - These smart contracts are public on GitHub: https://github.com/nalndamktplace/smart-contracts
 - Wrote test cases for all smart contract functionality.
 - Helped in implementing Pinata's submarine service along with the frontend team.
@@ -175,7 +175,7 @@ NFT trading platform with features like creating, buying, selling, auctioning NF
 ### My Work
 
 - Worked as an intern on this project during my college time.
-- Created smart contracts for the protocol.
+- Created smart contracts(written in solidity) for the protocol.
 - Created the frontend app using Web3.Js, React, JavaScript.
 - Integrated GraphQL APIs to get data from the blockchain using [thegraph](https://thegraph.com/ "thegraph 
 website") protocol.
@@ -188,16 +188,19 @@ website") protocol.
 
 #### [Code](https://github.com/codeTIT4N/supply-chain-truffle-react) . [Video](https://www.youtube.com/watch?v=2e-NGuT1PnY)
 
-Simulating a Pharmaceutical supply chain use case using a blockchain.
+Simulating a Pharmaceutical Supply Chain use case using blockchain.
 
 {{< collapse summary="More Details">}}
 
 - This was an old side project.
 - All medicines go through various stages of the supply chain like supplying of raw materials, manufacturing,
-  distributing and retailing.
+  distributing and retail.
 - All of the above mentioned stages are stored on the blockchain using transactions.
 - Anyone can track medicines through the various stages using the interface as it is stored on a
   public ledger(blockchain).
+- Tech Stack
+  - Blockchain: Solidity, Truffle framework, JavaScript.
+  - Frontend: React.Js, JavaScript, Web3.js.
 
 {{< /collapse >}}
 
@@ -214,6 +217,9 @@ Simple Blockchain based e-voting system.
 - Voters can login using their email password (built using firebase) and vote.
 - All the candidates are stored on blockchain and their vote count increases as people vote for them.
 - Anyone can view the election results after the election.
+- Tech Stack
+  - Blockchain: Solidity, Truffle framework, Ganache.
+  - Frontend: [Firebase](https://firebase.google.com/), React.Js, Web3.Js, [Drizzle framework](https://trufflesuite.com/drizzle/).
 
 {{< /collapse >}}
 
