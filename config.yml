@@ -33,14 +33,14 @@ params:
 
 menu:
   main:
-    - identifier: portfolio
-      name: Portfolio
-      url: /portfolio
+    - identifier: work
+      name: Work
+      url: /work
       weight: 10
-    # - identifier: telegram
-    #   name: Ping Me
-    #   url: https://t.me/lokesshk
-    #   weight: 20
+    - identifier: Projects
+      name: Projects
+      url: /projects
+      weight: 20
     - identifier: tech-blog
       name: Tech Blog
       url: https://blog.lokeshkr.com

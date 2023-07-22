@@ -1,8 +1,10 @@
 ---
-title: "Portfolio"
-layout: "portfolio"
-url: "/portfolio"
-summary: portfolio
+title: "Work Experience"
+layout: "work"
+url: "/work"
+summary: Work Experience
+---
+
 ---
 
 ## LYNC WORLD - GameFi Infrastructure
@@ -13,6 +15,8 @@ summary: portfolio
 
 LYNC is one stop solution for game developers to push their on chain without Web3 complexities.
 Currently I am working here as a full time Blockchain Developer.
+
+{{< collapse summary="More Details">}}
 
 ### Some things we are building
 
@@ -27,10 +31,10 @@ Currently I am working here as a full time Blockchain Developer.
   [Mantle](https://www.mantle.xyz/),
   [Arbitrum](https://arbitrum.io/) with features like deploying, verifying on block explorers, and
   minting.
-
 - Non-Custodial Marketplaces: Buy, Sell, Rent and Lend your NFTs without giving up the ownership.
-- Cross chain NFT Lending & Renting using [axelar network](https://axelar.network/).
-- Dynamic NFTs - [ETHGlobal Showcase](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r).
+- Integration of account abstraction(ERC-4337) in various products to make onboarding new users easy.
+- Cross chain NFT Lending & Renting using [axelar network](https://axelar.network/)
+- Dynamic NFTs - [ETHGlobal Showcase](https://ethglobal.com/showcase/dna-dynamic-nft-asset-9zx0r)
 
 ### Tech stack (day to day work)
 
@@ -46,6 +50,8 @@ Currently I am working here as a full time Blockchain Developer.
 4. R&D: Keeping up with the new Blockchain tech like
    [Account abstraction](https://eips.ethereum.org/EIPS/eip-4337),
    [Blockchain Interoperability](https://blog.chain.link/blockchain-interoperability/), etc.
+
+{{< /collapse >}}
 
 ---
 
@@ -186,49 +192,6 @@ NFT trading platform with features like creating, buying, selling, auctioning NF
 - Created the frontend app using Web3.Js, React, JavaScript.
 - Integrated GraphQL APIs to get data from the blockchain using [thegraph](https://thegraph.com/ "thegraph 
 website") protocol.
-
-{{< /collapse >}}
-
----
-
-## Pharmaceutical Supply Chain Simulation
-
-#### [Code](https://github.com/codeTIT4N/supply-chain-truffle-react) . [Video](https://www.youtube.com/watch?v=2e-NGuT1PnY)
-
-Simulating a Pharmaceutical Supply Chain use case using blockchain.
-
-{{< collapse summary="More Details">}}
-
-- This was an old side project.
-- All medicines go through various stages of the supply chain like supplying of raw materials, manufacturing,
-  distributing and retail.
-- All of the above mentioned stages are stored on the blockchain using transactions.
-- Anyone can track medicines through the various stages using the interface as it is stored on a
-  public ledger(blockchain).
-- Tech Stack
-  - Blockchain: Solidity, Truffle framework, JavaScript.
-  - Frontend: React.Js, JavaScript, Web3.js.
-
-{{< /collapse >}}
-
----
-
-## BlockVote - Blockchain based e-voting system
-
-#### [PPT](https://docs.google.com/presentation/d/1IhWUhTT83LxtYjHR52xJUV2uIY6eam8v/edit?usp=sharing&ouid=116527115944155558520&rtpof=true&sd=true)
-
-Simple Blockchain based e-voting system.
-
-{{< collapse summary="More Details">}}
-
-- My first blockchain project.
-- Admin starts/ends elections, Adds candidates, Deletes candidates.
-- Voters can login using their email password (built using firebase) and vote.
-- All the candidates are stored on blockchain and their vote count increases as people vote for them.
-- Anyone can view the election results after the election.
-- Tech Stack
-  - Blockchain: Solidity, Truffle framework, Ganache.
-  - Frontend: [Firebase](https://firebase.google.com/), React.Js, Web3.Js, [Drizzle framework](https://trufflesuite.com/drizzle/).
 
 {{< /collapse >}}
 
