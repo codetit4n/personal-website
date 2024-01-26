@@ -28,8 +28,8 @@ params:
       url: https://t.me/lokesshk
     # - name: tech-blog
     #   url: http://blog.lokeshkr.com
-    - name: YouTube
-      url: https://www.youtube.com/@LokeshWritesCode/videos
+    #- name: YouTube
+    #  url: https://www.youtube.com/@LokeshWritesCode/videos
 
 menu:
   main:
@@ -37,11 +37,11 @@ menu:
       name: Work
       url: /work
       weight: 10
-    - identifier: Projects
-      name: Projects
-      url: /projects
-      weight: 20
-    - identifier: tech-blog
-      name: Tech Blog
-      url: https://blog.lokeshkr.com
-      weight: 30
+        #- identifier: Projects
+        #  name: Projects
+        #  url: /projects
+        #  weight: 20
+        #- identifier: tech-blog
+        #  name: Tech Blog
+        #  url: https://blog.lokeshkr.com
+        #  weight: 30
