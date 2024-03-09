@@ -1,8 +1,6 @@
 # personal-website
 
-Under Development
-
-Live at: https://building.lokeshkr.com
+Backup of old look
 
 ### Run dev server
 
