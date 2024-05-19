@@ -12,10 +12,10 @@
 
 [[main]]
   name = "Blog"
-  #pageRef = "posts"
-  pre = "hashnode"
-  url = "https://blog.lokeshkr.com"
+  pageRef = "posts"
   weight = 10
+# pre = "hashnode"
+# url = "https://blog.lokeshkr.com"
 
 [[main]]
   name = "Projects"
