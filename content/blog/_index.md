@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog!"
+title: "Blog"
 ---
 
-Happy to see you here!
+Welcome to my blog! Happy reading! 🎉
