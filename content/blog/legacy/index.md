@@ -5,7 +5,7 @@ showDate: false
 showDateOnlyInArticle: false
 showWordCount: false
 showReadingTime: false
-showHero: false
+showHero: true
 ---
 
 These are some of the blog posts I wrote in the past.

@@ -1,11 +1,12 @@
 ---
-date: 2024-06-01
+date: 2024-06-05
 title: "My vim experience"
 showDate: true
 showDateOnlyInArticle: true
 showWordCount: true
 showReadingTime: true
 showHero: true
+heroStyle: thumbAndBackground
 ---
 
 In this article I will be talking about my experience with vim.
