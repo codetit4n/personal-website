@@ -7,6 +7,8 @@ showWordCount: false
 showReadingTime: false
 showPagination: false
 showAuthor: true
+showHero: true
+heroStyle: background
 ...
 
 ---

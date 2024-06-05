@@ -6,9 +6,11 @@ showDateOnlyInArticle: false
 showWordCount: false
 showReadingTime: false
 showHero: true
+heroStyle: background
+layoutBackgroundHeaderSpace: false
 ---
 
-These are some of the blog posts I wrote in the past.
+These are some of the blog posts I wrote a while back.
 You can check them out [here](https://codetitan.hashnode.dev).
 
 | Date        | Article Link                                                                                                                       |
