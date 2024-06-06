@@ -68,4 +68,6 @@ latest configuration here: https://github.com/codetit4n/nvim-config
 
 ## Conclusions
 
-Working with Vim makes you feel like a coding ninja. Just try it!
+I am still learning vim, and I am not an expert by any means. I will try to update this
+article as I learn more about vim. But I can say this: Working with Vim makes you feel
+like a coding ninja. Just try it!
