@@ -8,6 +8,7 @@ showReadingTime: false
 showHero: true
 heroStyle: background
 layoutBackgroundHeaderSpace: false
+tags: ["legacy", "rust", "blockchain", "tutorial"]
 ---
 
 These are some of the blog posts I wrote a while back.

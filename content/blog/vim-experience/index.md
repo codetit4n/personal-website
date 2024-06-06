@@ -7,6 +7,7 @@ showWordCount: true
 showReadingTime: true
 showHero: true
 heroStyle: thumbAndBackground
+tags: ["vim/nvim", "vscode", "lua", "experience"]
 ---
 
 In this article I will be talking about my experience with vim.

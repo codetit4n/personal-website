@@ -9,6 +9,7 @@ showPagination: false
 showAuthor: true
 showHero: true
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 ...
 
 ---
