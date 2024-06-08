@@ -14,25 +14,23 @@
   name = "Blog"
   pageRef = "blog"
   weight = 10
-# pre = "hashnode"
-# url = "https://blog.lokeshkr.com"
+
+[[main]]
+  name = "Notes"
+  pageRef = "notes"
+  weight = 20
 
 [[main]]
   name = "Projects"
   pre = "github"
   url = "https://github.com/codetit4n?tab=repositories"
-  weight = 20
-
-#[[main]]
-#  name = "Experience"
-#  pageRef = "experience"
-#  weight = 30
-#
+  weight = 30
 
 [[main]]
   name = "About"
   pageRef = "about"
   weight = 40
+
 
 #[[main]]
 #  name = "example sub-menu 1"

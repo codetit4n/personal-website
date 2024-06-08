@@ -3,6 +3,6 @@ title: "Notes"
 showHero: false
 ---
 
----
+Collection of notes on various topics. 📚
 
-This is a collection of notes that I take while learning new things. I hope you find them useful. 📝
+---

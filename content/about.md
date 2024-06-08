@@ -10,6 +10,7 @@ showAuthor: true
 showHero: true
 heroStyle: background
 layoutBackgroundHeaderSpace: false
+sharingLinks: false
 ...
 
 ---

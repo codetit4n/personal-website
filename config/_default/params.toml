@@ -18,7 +18,7 @@ enableCodeCopy = true
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "img/backgrounds/machine2.jpg" # used as default for background images
+#defaultBackgroundImage = "img/backgrounds/machine2.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = false
