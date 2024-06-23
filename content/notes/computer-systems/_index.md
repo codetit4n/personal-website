@@ -1,5 +1,5 @@
 ---
-title: "Computer Systems Notes"
+title: "Computer Systems"
 showHero: true
 showWordCount: false
 showReadingTime: false
