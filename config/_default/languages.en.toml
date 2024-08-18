@@ -15,15 +15,15 @@ title = "Lokesh Kumar"
 
  [author]
    name = "Lokesh Kumar"
-   image = "img/metaverse.jpg"
+   image = "img/itachi.jpg"
    headline = "Code Craftsman . Blockchain Dev . Problem Solver"
    bio = "Code Craftsman . Blockchain Dev . Problem Solver"
    links = [
+     { github = "https://github.com/codetit4n" },
      { email = "mailto:hello@lokeshkr.com" },
-     { x-twitter = "https://twitter.com/lokeshtweets_" },
      { telegram = "https://t.me/lokesshk" },
      { linkedin = "https://www.linkedin.com/in/lokesh-kumar-0baa691b9" },
-     { github = "https://github.com/codetit4n" },
+     { x-twitter = "https://twitter.com/lokeshtweets_" },
      { youtube = "https://www.youtube.com/@LokeshWritesCode/videos" },
      #{ hashnode = "https://blog.lokeshkr.com" },
      #{ email = "mailto:lokeshkumar636@yahoo.com" },

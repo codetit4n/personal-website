@@ -6,7 +6,7 @@ showDateOnlyInArticle: true
 showWordCount: true
 showReadingTime: true
 showHero: true
-heroStyle: thumbAndBackground
+heroStyle: thumbnail
 tags: ["vim/nvim", "vscode", "lua", "experience"]
 ---
 
