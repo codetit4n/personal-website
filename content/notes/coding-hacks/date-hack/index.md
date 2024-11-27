@@ -35,3 +35,7 @@ m = (date >> 5) % 16;
    leaving 0b111101111110.  */
 y = date >> 9;
 ```
+
+### References
+
+- [GNU C Manual](https://www.gnu.org/software/c-intro-and-ref/manual/html_node/Shift-Hacks.html)

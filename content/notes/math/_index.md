@@ -3,6 +3,7 @@ title: "Math"
 showHero: true
 showWordCount: false
 showReadingTime: false
+draft: true
 ---
 
 ---
