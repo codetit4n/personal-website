@@ -1,0 +1,65 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Lokesh Kumar"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 Jan 2006"
+
+[params.author]
+    name = "Lokesh Kumar"
+    image = "itachi.jpg"
+    bio = "Code Craftsman . Blockchain Dev . Problem Solver"
+    headline = "Code Craftsman . Blockchain Dev . Problem Solver"
+    links = [
+     { github = "https://github.com/codetit4n" },
+     { email = "mailto:hi@loke.sh" },
+     { telegram = "https://t.me/lokesshk" },
+     { linkedin = "https://www.linkedin.com/in/lokesh-kumar-0baa691b9" },
+     { x-twitter = "https://twitter.com/lokeshtweets_" },
+     { youtube = "https://www.youtube.com/@LokeshWritesCode/videos" },
+     #{ hashnode = "https://blog.loke.sh" },
+     #{ email = "mailto:lokeshkumar636@yahoo.com" },
+     #{ discord = "https://discord.gg/invitecode" },
+     #{ twitch = "https://twitch.tv/username" },
+     #{ stack-overflow = "https://stackoverflow.com/users/userid/username" },
+     #{ twitter = "https://twitter.com/username" },
+     #{ email = "mailto:lokeshkumar636@yahoo.com" },
+     #{ link = "https://link-to-some-website.com/" },
+     #{ amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+     #{ apple = "https://www.apple.com" },
+     #{ blogger = "https://username.blogspot.com/" },
+     #{ bluesky = "https://bsky.app/profile/username" },
+     #{ codepen = "https://codepen.io/username" },
+     #{ dev = "https://dev.to/username" },
+     #{ dribbble = "https://dribbble.com/username" },
+     #{ facebook = "https://facebook.com/username" },
+     #{ flickr = "https://www.flickr.com/photos/username/" },
+     #{ foursquare = "https://foursquare.com/username" },
+     #{ gitlab = "https://gitlab.com/username" },
+     #{ google = "https://www.google.com/" },
+     #{ instagram = "https://instagram.com/username" },
+     #{ keybase = "https://keybase.io/username" },
+     #{ kickstarter = "https://www.kickstarter.com/profile/username" },
+     #{ lastfm = "https://lastfm.com/user/username" },
+     #{ mastodon = "https://mastodon.instance/@username" },
+     #{ medium = "https://medium.com/username" },
+     #{ microsoft = "https://www.microsoft.com/" },
+     #{ orcid = "https://orcid.org/userid" },
+     #{ patreon = "https://www.patreon.com/username" },
+     #{ pinterest = "https://pinterest.com/username" },
+     #{ reddit = "https://reddit.com/user/username" },
+     #{ researchgate = "https://www.researchgate.net/profile/username" },
+     #{ slack = "https://workspace.url/team/userid" },
+     #{ snapchat = "https://snapchat.com/add/username" },
+     #{ soundcloud = "https://soundcloud.com/username" },
+     #{ steam = "https://steamcommunity.com/profiles/userid" },
+     #{ tiktok = "https://tiktok.com/@username" },
+     #{ tumblr = "https://username.tumblr.com" },
+     #{ whatsapp = "https://wa.me/phone-number" },
+     #{ ko-fi = "https://ko-fi.com/username" },
+   ]

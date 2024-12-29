@@ -1,0 +1,37 @@
+name: Deploy Hugo Site to cPanel
+
+# run when a commit is pushed to "main" branch
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      # checkout to the commit that has been pushed
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      # install Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.139.0" # Version to compile Hugo, best is to use same as local
+          extended: true
+
+      # build website
+      - name: Build
+        run: hugo --minify
+
+      # Put the generated content into cPanel
+      - name: Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./public/
