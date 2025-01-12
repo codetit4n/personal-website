@@ -30,6 +30,7 @@
   name = "About"
   pageRef = "about"
   weight = 40
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20

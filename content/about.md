@@ -11,8 +11,6 @@ showHero: true
 heroStyle: background
 layoutBackgroundHeaderSpace: false
 sharingLinks: false
-...
-
 ---
 
 Namaste 🙏 , I’m Lokesh
