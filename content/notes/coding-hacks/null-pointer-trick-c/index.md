@@ -33,7 +33,7 @@ sizeof(((struct Name *)0)->member)
 
 ### How it works:
 
-1. `(struct Name \*)0` casts the integer value 0 to a pointer to your struct
+1. `(struct Name *)0` casts the integer value 0 to a pointer to your struct
 2. The `->member` accesses a field of this hypothetical struct "located" at
    memory address 0
 3. `sizeof()` evaluates the size of the member's type at compile time

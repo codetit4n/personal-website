@@ -7,4 +7,4 @@ showReadingTime: false
 
 ---
 
-Collection of some coding hacks. 👨‍💻
+Collection of some coding hacks that I find amusing. 👨‍💻
