@@ -1,6 +1,6 @@
 # personal-website
 
-Live at: http://loke.sh
+Live at: https://loke.sh
 
 ### Useful commands
 

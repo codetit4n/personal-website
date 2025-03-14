@@ -9,6 +9,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 Jan 2006"
+copyright = "<a href='https://github.com/codetit4n/personal-website/blob/main/LICENSE.md' target='_blank'>_© 2025 Lokesh Kumar_</a>"
 
 [params.author]
     name = "Lokesh Kumar"
