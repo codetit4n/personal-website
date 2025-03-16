@@ -14,8 +14,8 @@ copyright = "<a href='https://github.com/codetit4n/personal-website/blob/main/LI
 [params.author]
     name = "Lokesh Kumar"
     image = "itachi.jpg"
-    bio = "Code Craftsman . Blockchain Dev . Problem Solver"
-    headline = "Code Craftsman . Blockchain Dev . Problem Solver"
+    bio = "Code Craftsman . Blockchain Dev . Systems Enthusiast"
+    headline = "Code Craftsman . Blockchain Dev . Systems Enthusiast"
     links = [
      { github = "https://github.com/codetit4n" },
      { email = "mailto:hi@loke.sh" },
