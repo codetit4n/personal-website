@@ -21,7 +21,7 @@ My ENS name is [lokeshk.eth](https://app.ens.domains/lokeshk.eth)
 
 These are my blockchain addresses:
 
-- Bitcoin
+- [Bitcoin](https://bitcoin.org)
 
   ```
   bc1qym59jwawthmd8hgmznmytwshu764s8wgwqgmct
