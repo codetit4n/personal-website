@@ -19,4 +19,18 @@ some crypto my way. I really appreciate it!
 
 My ENS name is [lokeshk.eth](https://app.ens.domains/lokeshk.eth)
 
-You can find my blockchain addresses here: https://app.ens.domains/lokeshk.eth
+These are my blockchain addresses:
+
+- Bitcoin
+
+  ```
+  bc1qym59jwawthmd8hgmznmytwshu764s8wgwqgmct
+  ```
+
+- [Ethereum](https://ethereum.org), [Polygon PoS](https://polygon.technology/polygon-pos) and [Binance Smart Chain](https://www.bnbchain.org/en/bnb-smart-chain)
+
+  ```
+  0x9Ea52642698cC5d02062b9D4a4dDB5af875bb280
+  ```
+
+  > NOTE: This is a [(Safe Multisig)](https://safe.global/wallet)
