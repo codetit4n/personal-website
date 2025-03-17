@@ -33,4 +33,4 @@ These are my blockchain addresses:
   0x9Ea52642698cC5d02062b9D4a4dDB5af875bb280
   ```
 
-  > NOTE: This is a [(Safe Multisig)](https://safe.global/wallet)
+  > NOTE: This is a [Safe Multisig](https://safe.global/wallet)
