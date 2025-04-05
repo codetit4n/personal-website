@@ -7,7 +7,7 @@ showWordCount: true
 showReadingTime: true
 showHero: true
 heroStyle: thumbnail
-tags: ["vim/nvim", "vscode", "lua", "experience"]
+tags: ["vim", "vscode", "lua", "experience"]
 ---
 
 In this article I will be talking about my experience with vim.
