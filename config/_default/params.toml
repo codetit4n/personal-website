@@ -23,7 +23,7 @@ layout = "fixed"
 
 [homepage]
 layout = "background"
-homepageImage = "machine2.jpg" # used in: hero, and card
+homepageImage = "machine1.jpg" # used in: hero, and card
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
